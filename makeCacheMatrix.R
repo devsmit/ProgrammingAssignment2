@@ -31,5 +31,5 @@ cacheSolve <- function(x, ...) {
     data <- x$get()
     invs <- solve(data)
     x$setinvs(invs)
-    inv
+    invs
 }
